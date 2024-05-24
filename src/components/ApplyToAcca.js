@@ -1,11 +1,10 @@
 import React, { useState } from "react";
-// import './ApplyToAcca.css'; // Ensure this is the correct path to your CSS file
 
 const ApplyToAcca = () => {
   const [isModalOpen, setModalOpen] = useState(false);
 
   const openModal = (event) => {
-    event.preventDefault(); // Prevent the form from submitting
+    event.preventDefault(); 
     setModalOpen(true);
   };
 
